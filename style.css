@@ -1,0 +1,148 @@
+.logo{
+  width: 250px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_nav{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav_item{
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px 5px;
+
+}
+.sign_in_button{
+  background-color: #0070cc;
+  color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  height: 50px;
+  width: 150px;
+}
+.sign_in_button:hover{
+  background-color:darkblue;
+}
+.nav_item:hover{
+  color:#0070cc;
+}
+.main{
+  padding:0px 100px;
+}
+.main_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 59px;
+  padding:0px 80px;
+}
+.menu{
+  width:350px;
+  height:100vh;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: -350px;
+  transition: left 1s ease-in-out;
+}
+.isOpen{
+  left:0;
+}
+.burger{
+  z-index: 10;
+}
+.menu_list{
+  padding: 40px;
+}
+.menu_item{
+  list-style-type: none;
+  padding: 8px;
+}
+.contacts{
+  font-size: 25px;
+  margin: 0 auto;
+}
+.contacts_items{
+  list-style-type: none;
+  padding: 2px;
+}
+.menu_item:hover{
+  color: #ebebeb;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+  position: left;
+}
+.slider-img{
+  width: 600px;
+  height: 300px;
+}
+.slider-img2{
+  width: 600px;
+  height: 300px;
+}
+.slider-img3{
+  width: 600px;
+  height: 300px;
+}
+.slider-img4{
+  width: 600px;
+  height: 300px;
+}
+.slider-img5{
+  width: 600px;
+  height: 300px;
+}
+.main{
+  padding:0px 100px;
+}
+.main_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 59px;
+  padding:0px 80px;
+}
+.shop_btn{
+  font-size: 32px;
+  height:82px;
+  width:220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#0070cc;
+  border-radius:30px
+}
+.shop_btn:hover{
+  color: white;
+  background-color:#164694;
+}
+.PS4{
+  height:400px;
+}
+.shop_btn2{
+  font-size: 32px;
+  height:82px;
+  width:220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#0070cc;
+  border-radius:30px
+}
+.shop_btn2:hover{
+  color: white;
+  background-color:#164694;
+}
+.text{
+  justify-content: left;
+}
